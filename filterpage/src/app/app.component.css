@@ -1,0 +1,91 @@
+.box{
+    border-radius: 20px;
+    height: 200px;
+    width: 300px;
+  }
+  .btn{
+    border-radius: 20px;
+    margin: 10px;
+  }
+  .container{
+    display: inline-block;
+    margin-left: 4%;
+   width: 50% ;
+  }
+  
+  .picture{
+    border-radius: 20px;
+  }
+  .text{
+    margin: 10px;
+    font-size: 22px;
+  }
+  .center {
+    display: block;
+    margin-left: 58%;
+    margin-right: auto;
+    margin-bottom: 50px;
+    width: 120px;
+    margin-top: 100px;
+  }
+  b{
+    padding: 40.5rem;
+  }
+  .row{
+    border-radius: 15px;
+    width:1400px;
+    height: 100%;
+  }
+  
+  .home{
+    height: 1000px;
+    background-size: 80% ;
+    background-size: cover;
+    background-image:url('src\assets\bg.png');
+    background-position:20% 20%;
+  }
+
+  h3{
+    color: black;
+    border-color: black;
+    text-align:center;
+  }
+  #shift{
+    margin-left:100px;
+
+  }
+  .style {
+    border: none;
+    color: white;
+    padding: 15px 700px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .button1 {
+    background-color: DodgerBlue;
+    font-size: 15px;
+}
+.boxed {
+    border: 1px solid black ;
+  }
+.box {
+    width: 1000px;
+    border: 3px solid #F0F8FF;
+    float: left;
+    height: 700px;
+  }
+  .box2 {
+    width: 300px;
+    border: 3px solid #F0F8FF;
+    float: left;
+    height: 700px;
+  }
+  .center {
+    margin-left: 3px;
+   margin-top:1px;
+    width: 10%;
+  }
