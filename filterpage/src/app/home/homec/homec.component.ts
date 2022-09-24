@@ -16,5 +16,9 @@ export class HomecComponent implements OnInit {
   next()
   {
     this.router.navigate(['/details']);
-  }  
+  } 
+  idNext()
+  {
+    this.router.navigate(['/id']);
+  }
 }
