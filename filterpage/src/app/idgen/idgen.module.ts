@@ -8,8 +8,7 @@ import { IdComponent } from './id/id.component';
 @NgModule({
   declarations: [
     
-  
-    IdComponent,
+
   ],
   imports: [
     CommonModule

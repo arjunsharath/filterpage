@@ -1,3 +1,4 @@
+import { IdComponent } from './idgen/id/id.component';
 import { PrintbtnComponent } from './idgen/printbtn/printbtn.component';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -12,12 +13,13 @@ import { IdgenModule } from './idgen/idgen.module';
   declarations: [
     AppComponent,
     TableComponent,
+    IdComponent,
+    PrintbtnComponent
 
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,
-    IdgenModule
+    AppRoutingModule
   
   
   ],

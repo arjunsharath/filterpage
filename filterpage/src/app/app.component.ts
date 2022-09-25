@@ -12,8 +12,5 @@ export class AppComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  show(){
-    console.log("arjun");
-  }
 
 }

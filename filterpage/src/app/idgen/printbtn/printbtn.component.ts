@@ -1,15 +1,19 @@
-import { Component, VERSION } from '@angular/core';
+import { Component, VERSION, OnInit } from '@angular/core';
 
 
 @Component({
-  selector: 'app-root',
+  selector: 'app-printbtn',
   templateUrl: './printbtn.component.html',
   styleUrls: ['./printbtn.component.css']
 })
-export class PrintbtnComponent {
+export class PrintbtnComponent implements OnInit{
   name=`angular ${VERSION.major}`;
 
-  printPage() {
+  constructor() { }
+
+  ngOnInit(): void {
+  }
+  printPage(): void {
      window.print();
   }
 }
