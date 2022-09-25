@@ -20,5 +20,9 @@ export class HomecComponent implements OnInit {
   gotoupload()
   {
     this.router.navigate(['/trainee-uploaddoc'])
+  } 
+  idNext()
+  {
+    this.router.navigate(['/id']);
   }
 }
