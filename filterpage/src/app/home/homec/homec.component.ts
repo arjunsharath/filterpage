@@ -13,8 +13,12 @@ export class HomecComponent implements OnInit {
 
   ngOnInit(): void {
   }
-  next()
+  gotodetails()
   {
     this.router.navigate(['/details']);
   }  
+  gotoupload()
+  {
+    this.router.navigate(['/trainee-uploaddoc'])
+  }
 }
