@@ -1,13 +1,15 @@
-import { PrintbtnComponent } from './printbtn/printbtn.component';
+
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { IdComponent } from './id/id.component';
+import { IdprintComponent } from './idprint/idprint.component';
+
 
 
 
 @NgModule({
   declarations: [
-    PrintbtnComponent
+    IdComponent,IdprintComponent
   ],
   imports: [
     CommonModule

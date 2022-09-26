@@ -21,7 +21,7 @@ export class HomecComponent implements OnInit {
   {
     this.router.navigate(['/trainee-uploaddoc'])
   } 
-  idNext()
+  gotoidgen()
   {
     this.router.navigate(['/id']);
   }

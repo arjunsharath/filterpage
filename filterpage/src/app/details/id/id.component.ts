@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Route, Router } from '@angular/router';
+import { PrintidComponent } from '../printid/printid.component';
 @Component({
   selector: 'app-id',
   templateUrl: './id.component.html',
@@ -7,12 +7,8 @@ import { Route, Router } from '@angular/router';
 })
 export class IdComponent implements OnInit {
 
-  constructor(public router:Router) { }
+  constructor() { }
+
   ngOnInit(): void {
   }
-  print()
-  {
-    this.router.navigate(['/idprint']);
-  }
-
 }

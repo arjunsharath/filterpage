@@ -6,7 +6,7 @@ import { HomecComponent } from './homec/homec.component';
 
 @NgModule({
   declarations: [
-    HomecComponent
+    HomecComponent,
   ],
   imports: [
     CommonModule

@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PrintbtnComponent } from './printbtn.component';
+import { IdprintComponent } from './idprint.component';
 
-describe('PrintbtnComponent', () => {
-  let component: PrintbtnComponent;
-  let fixture: ComponentFixture<PrintbtnComponent>;
+describe('IdprintComponent', () => {
+  let component: IdprintComponent;
+  let fixture: ComponentFixture<IdprintComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PrintbtnComponent ]
+      declarations: [ IdprintComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PrintbtnComponent);
+    fixture = TestBed.createComponent(IdprintComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
