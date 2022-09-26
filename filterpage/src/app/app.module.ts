@@ -11,15 +11,12 @@ import { IdgenModule } from './idgen/idgen.module';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TableComponent,
-    IdComponent,
-    PrintbtnComponent
-
+    AppComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    IdgenModule
   
   
   ],

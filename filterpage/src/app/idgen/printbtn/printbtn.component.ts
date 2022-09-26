@@ -7,7 +7,7 @@ import { Component, VERSION, OnInit } from '@angular/core';
   styleUrls: ['./printbtn.component.css']
 })
 export class PrintbtnComponent implements OnInit{
-  name=`angular ${VERSION.major}`;
+  name='angular ${VERSION.major}'
 
   constructor() { }
 

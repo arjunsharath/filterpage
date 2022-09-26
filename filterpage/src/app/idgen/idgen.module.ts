@@ -7,8 +7,7 @@ import { IdComponent } from './id/id.component';
 
 @NgModule({
   declarations: [
-    
-
+    PrintbtnComponent
   ],
   imports: [
     CommonModule
