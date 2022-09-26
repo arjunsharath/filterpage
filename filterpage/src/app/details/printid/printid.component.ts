@@ -1,6 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { Router } from '@angular/router';
-import { IdComponent } from '../id/id.component';
 @Component({
   selector: 'app-printid',
   templateUrl: './printid.component.html',
@@ -8,13 +6,9 @@ import { IdComponent } from '../id/id.component';
 })
 export class PrintidComponent implements OnInit {
 
-  constructor(public router:Router) { }
+  constructor() { }
 
-  ngOnInit(): void {
-  }
-  printid()
-  {
-    window.print();    
+  ngOnInit(): void { window.print();
   }
 }
 
